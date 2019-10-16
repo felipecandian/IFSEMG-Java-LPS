@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-10-06" view-index="0" gantt-divider-location="439" resource-divider-location="300" version="2.8.10" locale="pt_BR">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="228" order="0"/>
+        <field id="tpd4" name="Data inicial" width="104" order="1"/>
+        <field id="tpd5" name="Data final" width="103" order="2"/>
+        <option id="color.recent"><![CDATA[#66ff66 #ff3333 #ff33cc #ffff00 #f4f4f4 #ff0033 #eb1313 #ff8d00 #3333ff #ccffcc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Função" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="46" name="DOCUMENTAÇÃO" meeting="false" start="2019-08-30" duration="24" complete="3" expand="false">
+            <task id="49" name="Documento de requisito" color="#99ff99" meeting="false" start="2019-08-30" duration="24" complete="3" thirdDate="2019-10-15" thirdDate-constraint="0" priority="2" expand="true"/>
+        </task>
+        <task id="47" name="MODELAGEM" meeting="false" start="2019-08-30" duration="24" complete="0" expand="false">
+            <task id="51" name="Diagrama de caso de uso" color="#99ffcc" meeting="false" start="2019-08-30" duration="24" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="52" name="Diagrama de sequência de analise" color="#ccffcc" meeting="false" start="2019-08-30" duration="24" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="53" name="Diagrama de classe de analise" color="#ccffcc" meeting="false" start="2019-08-30" duration="24" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" priority="2" expand="true"/>
+        </task>
+        <task id="6" name="DESIGN" meeting="false" start="2019-10-03" duration="4" complete="0" expand="false">
+            <task id="9" name="Prototipo da tela login" color="#ff8d00" meeting="false" start="2019-10-03" duration="4" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="26" name="Design da tela de login" color="#eb1313" meeting="false" start="2019-10-03" duration="4" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" priority="2" expand="true"/>
+        </task>
+        <task id="0" name="LOGIN" meeting="false" start="2019-10-03" duration="9" complete="0" expand="false">
+            <task id="1" name="Programar a tela de login" color="#ffff00" meeting="false" start="2019-10-03" duration="9" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="3" name="Autenticação e ligação do formulário com banco de dados" color="#3333ff" meeting="false" start="2019-10-03" duration="9" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" priority="2" expand="true"/>
+        </task>
+        <task id="8" name="TESTE DO PRODUTO - Inicial" meeting="false" start="2019-10-31" duration="4" complete="0" expand="false">
+            <task id="11" name="Efetuar testes da tela de cadastro de usuário" color="#ff3333" meeting="false" start="2019-10-31" duration="4" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="25" name="Efetuar teste de acesso da tela login" color="#ff0033" meeting="false" start="2019-10-31" duration="3" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="14" name="CRUD PROCESSO" color="#000000" meeting="false" start="2019-10-16" duration="12" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="false">
+            <task id="20" name="Programar método: Busca de processo" color="#ff3333" meeting="false" start="2019-10-16" duration="12" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="27" name="Programar método: Cadastrar processo" color="#ff0033" meeting="false" start="2019-10-16" duration="12" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="28" name="Programar método: Listar  processo" color="#eb1313" meeting="false" start="2019-10-16" duration="12" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="29" name="Programar método: Excluir processo" color="#ff0033" meeting="false" start="2019-10-16" duration="12" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="30" name="Programar método: Atualizar processo" color="#ff0033" meeting="false" start="2019-10-16" duration="12" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="15" name="CRUD CLIENTE" meeting="false" start="2019-11-01" duration="20" complete="0" expand="false">
+            <task id="41" name="Programar método: Busca de cliente" color="#ffff00" meeting="false" start="2019-11-01" duration="20" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="Programar método: Cadastrar cliente" color="#ffff00" meeting="false" start="2019-11-01" duration="20" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="43" name="Programar método: Listar  cliente" color="#ffff00" meeting="false" start="2019-11-01" duration="20" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="44" name="Programar método: Excluir cliente" color="#ffff00" meeting="false" start="2019-11-01" duration="20" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="45" name="Copiar_Programar método: Atualizar processo" color="#ffff00" meeting="false" start="2019-11-01" duration="20" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" priority="4" expand="true"/>
+        </task>
+        <task id="17" name="GERAR RELATÓRIO" color="#8cb6ce" meeting="false" start="2019-11-29" duration="6" complete="4" thirdDate="2019-10-15" thirdDate-constraint="0" expand="false">
+            <task id="18" name="Tela de emitir relatório clientes" color="#8cb6ce" meeting="false" start="2019-11-29" duration="6" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="Tela de emitir relatório processos" color="#8cb6ce" meeting="false" start="2019-11-29" duration="6" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="Programar gerar relatório cliente" color="#8cb6ce" meeting="false" start="2019-11-29" duration="6" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+            <task id="24" name="Programar gerar relatório processo" color="#8cb6ce" meeting="false" start="2019-11-29" duration="6" complete="17" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="54" name="TESTE DO PRODUTO 2" meeting="false" start="2019-11-28" duration="11" complete="25" expand="false">
+            <task id="57" name="Teste dos relatórios cliente" color="#66ff66" meeting="false" start="2019-11-28" duration="11" complete="50" thirdDate="2019-11-28" thirdDate-constraint="0" expand="true"/>
+            <task id="58" name="Teste dos relatórios processo" color="#66ff66" meeting="false" start="2019-11-28" duration="11" complete="0" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="113" name="CORREÇÕES DE BUGS" color="#ff33cc" meeting="false" start="2019-10-02" duration="58" complete="0" thirdDate="2019-09-09" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="114" name="ENTREGA DO SOFTWARE" meeting="false" start="2019-12-16" duration="4" complete="0" expand="false">
+            <task id="116" name="Teste final do software" color="#ff3333" meeting="false" start="2019-12-16" duration="4" complete="0" thirdDate="2019-09-09" thirdDate-constraint="0" priority="4" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Jesus Felipe" function="3" contacts="" phone=""/>
+        <resource id="1" name="Wellington" function="Default:1" contacts="" phone=""/>
+        <resource id="2" name="Thiago" function="5" contacts="" phone=""/>
+        <resource id="3" name="Maxuel" function="4" contacts="" phone=""/>
+        <resource id="9" name="Guilherme" function="3" contacts="" phone=""/>
+        <resource id="10" name="Willian" function="6" contacts="" phone=""/>
+        <resource id="11" name="Victor" function="2" contacts="" phone=""/>
+        <resource id="12" name="Fernando" function="3" contacts="" phone=""/>
+        <resource id="13" name="Davidson" function="3" contacts="" phone=""/>
+        <resource id="14" name="Luiz David" function="1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="20" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="116" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="116" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="57" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="2" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="2" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="51" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="53" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="116" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="9" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="9" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="9" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="10" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="10" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="113" resource-id="10" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="116" resource-id="10" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="57" resource-id="10" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="11" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="11" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="11" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="116" resource-id="11" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="12" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="13" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="13" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="14" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="14" function="1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Design"/>
+        <role id="2" name="Back End"/>
+        <role id="3" name="Front End"/>
+        <role id="4" name="Analista de sistema"/>
+        <role id="5" name="Analista de banco de dados"/>
+        <role id="6" name="Teste de software"/>
+        <role id="7" name="Design"/>
+    </roles>
+</project>
